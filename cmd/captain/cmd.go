@@ -164,7 +164,7 @@ func handleCmd() {
 		Short: "Display version",
 		Long:  `Displays the version of Captain.`,
 		Run: func(cmd *cobra.Command, args []string) {
-			fmt.Println("v1.0.0")
+			fmt.Println("vv1.0.0p1")
 		},
 	}
 
